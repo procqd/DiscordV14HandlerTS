@@ -1,0 +1,28 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bot": "npx ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "errsynt",
+  "license": "",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "axios": "^1.8.4",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "form-data": "^4.0.2",
+    "sharp": "^0.34.0",
+    "uuid": "^11.1.0"
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
